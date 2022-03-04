@@ -9,7 +9,7 @@ const {user,logOut}=useAuth()
   
     return (
         <div>
-                <Container fluid>
+                <Container fluid className='border-bottom'>
 
 <Navbar collapseOnSelect expand="lg" variant="dark">
     <Container>
@@ -22,8 +22,8 @@ const {user,logOut}=useAuth()
                 <Nav.Link to="/books"  as={Link}className="px-3 fs-5 text-white" > ALL Books</Nav.Link>
              
                 <Nav.Link to="/offers" as={Link} className="px-3 fs-5 text-white" >Offers</Nav.Link>
-                <Nav.Link to="/contact" as={Link} className=" fs-5 pe-2 text-white " >
-                     Contact
+                <Nav.Link to="/allorder" as={Link} className=" fs-5 pe-2 text-white " >
+                     All-Order
                 </Nav.Link>
                 {user?.email ?
                             <Button onClick={logOut} className="light text-danger fs-5 ms-3 me-2" >Logout</Button> :

@@ -22,13 +22,12 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/books" element={<Books/>} />
         <Route path="/books/:useId" element={ 
-           <PrivateRoute>
-            
+           <PrivateRoute>          
              <BookOrder/>
              </PrivateRoute> 
            } />
         <Route path="/offers" element={<Offer/>} />
-        <Route path="/contact" element={<Contact/>} />
+        <Route path="/allorder" element={<Contact/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/signup" element={<SignUp/>} />
       </Routes> 

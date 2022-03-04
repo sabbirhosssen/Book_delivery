@@ -34,13 +34,13 @@ const BookOrder = () => {
       // }
      return (
         <div>
-           <div className="d-flex w-100 h-100 m-5">
+           <div className="d-flex justify-content-evenly   m-5">
              <div className='w-50'>
              <h2 className='text-white'>products number<span> {params.useId}</span>
             </h2>
             <Col  className='w-50 mx-auto'>
                < Card className=" bg-dark bg-gradient text-white">
-                     <Image width="100%" height="320px" className='rounded'  src={booker.img} ></Image> 
+                     <Image width="100%" height="420px" className='rounded'  src={booker.img} ></Image> 
                  
                    <Card.Body className=' '>
                     <Card.Text className=' text_card'>
@@ -56,7 +56,7 @@ const BookOrder = () => {
                   </Card>
                 </Col>
              </div>
-             <div className='w-50 text-center'>
+             <div className='text-center'>
                    <h1 className='text-white'> Delivery Form</h1>
 
 {/* 
