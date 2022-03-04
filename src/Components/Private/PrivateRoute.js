@@ -3,7 +3,7 @@ import { Spinner } from 'react-bootstrap';
 import { Navigate, useLocation } from 'react-router-dom';
 import useAuth from '../../Hook/useAuth';
 
-const PrivateRoute = ( children) => {
+const PrivateRoute = ( {children}) => {
     const {user ,isLoading} = useAuth();
     const location =useLocation();
   

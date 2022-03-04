@@ -26,6 +26,7 @@ const OfferData = ({key,img,title,chanel,price}) => {
                     <Card.Text>
                       Price :{price}tk
                     </Card.Text>
+                  <p className='text-white'>hi</p>
     
                   </Card.Body>
                   {/* <Link to={`/books/${key}`} > <button onClick={()=>handleClickBooks(key)} className='border-0 text-bold btn btn-outline-warning'>Add To Cart</button> </Link> */}

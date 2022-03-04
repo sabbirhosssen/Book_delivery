@@ -34,6 +34,11 @@ const HeaderInfo = () => {
                 <Nav.Link as={Link} to={"/signup"} className=" text-info"> Signup</Nav.Link>
             </Nav>
         </Popover.Header>
+        <Popover.Header as="h3">
+            <Nav>
+                <Nav.Link as={Link} to={"/admin"} className=" text-info"> AdminLogin</Nav.Link>
+            </Nav>
+        </Popover.Header>
 
     </Popover>
 </Overlay>

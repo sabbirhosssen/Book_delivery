@@ -13,7 +13,7 @@ const {user,logOut}=useAuth()
 
 <Navbar collapseOnSelect expand="lg" variant="dark">
     <Container>
-        <Navbar.Brand className="fs-2 fw-bolder text-primary "> <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWere9YljxlRqiaP1u7uD5T8J9TaIu1m-qhQ&usqp=CAU" rounded="true" width="130px" height="70px" ></Image> BOOK DELIVERY</Navbar.Brand>
+        <Navbar.Brand to="/" as={Link}   className="fs-2 fw-bolder text-white "> <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWere9YljxlRqiaP1u7uD5T8J9TaIu1m-qhQ&usqp=CAU" rounded="true" width="130px" height="70px" ></Image> BOOK DELIVERY</Navbar.Brand>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className="bg-info" />
         <Navbar.Collapse className="justify-content-end">

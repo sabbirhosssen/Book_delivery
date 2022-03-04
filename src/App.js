@@ -9,7 +9,7 @@ import Home from './Components/pages/Home/Home';
 import Login from './Components/pages/Login/Login';
 import SignUp from './Components/pages/Login/SignUp';
 import Offer from './Components/pages/Offer/Offer';
-// import PrivateRoute from './Components/Private/PrivateRoute';
+import PrivateRoute from './Components/Private/PrivateRoute';
 import AuthProvider from './Context/AuthProvider';
 
 function App() {
@@ -22,9 +22,10 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/books" element={<Books/>} />
         <Route path="/books/:useId" element={ 
-          //  <PrivateRoute>
+           <PrivateRoute>
+            
              <BookOrder/>
-            //  </PrivateRoute>
+             </PrivateRoute> 
            } />
         <Route path="/offers" element={<Offer/>} />
         <Route path="/contact" element={<Contact/>} />

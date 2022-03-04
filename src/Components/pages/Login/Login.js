@@ -1,20 +1,20 @@
 
 import React from 'react';
-import { Button, Form, Image } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Button, Form } from 'react-bootstrap';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import useAuth from "../../../Hook/useFirebase";
 import './login.css';
 
 const Login = () => {
     
     const {handleGoogleSignIn}=useAuth()
-    // const navigate =useNavigate();
-    // const location =useLocation();
-    // const redirect_uri = location?.state?.from || '/books';
+    const navigate =useNavigate();
+    const location =useLocation();
+     const redirect_uri = location?.state?.from || '/';
     const handleGoogleLogIn=(e)=>{
         e.preventDefault();
-        handleGoogleSignIn().then(result=>{
-            // navigate(redirect_uri)
+        handleGoogleSignIn().then(result => {
+            navigate(redirect_uri)
         })
     }
     
@@ -47,7 +47,7 @@ const Login = () => {
                 <Form.Label className="text-success fs-2">or</Form.Label>
 
                 <Button onClick={handleGoogleLogIn} className="bg-info border-0 rounded w-100  fs-5" >
-                    <Image width="35px" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png" />
+                    {/* <Image width="35px" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png" /> */}
                     Sign in with Google
                 </Button>
 
