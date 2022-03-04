@@ -1,56 +1,86 @@
 [
   {
     "key": "1",
-    "img": "https://tour.com.bd/uploads/images/hotels/slider/thumbs/637176_3.jpg",
-    "video": "https://youtu.be/dLMSuDXHh-c",
-    "title": "please subcribe the video ",
-    "views": "140k views",
-    "time": " 8 hours ago",
-    "chanel": "Code with sabbir"
+    "img": "https://assets.teenvogue.com/photos/5cd4384fac4d9e712fe2ebb0/2:3/w_1852,h_2778,c_limit/The%20Gravity%20of%20Us_.jpg",
+    "title": "The Gravity Of Us",
+    "price": "340",
+    "chanel": "PHIL STAMPER"
   },
   {
     "key": "2",
-    "img": "https://tour.com.bd/uploads/images/hotels/slider/thumbs/588989_2.jpg",
-    "video": "https://www.youtube.com/embed/LZ0v9A5iEG4",
-    "title": "please subcribe the video ",
-    "views": "140k views",
-    "time": " 8 hours ago",
-    "chanel": "Code with sabbir"
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKYno8IOic_-2JqhnNFfOMne0P-1rGgX6PjA0v0RviAsUgrz9tcRIthga0yT0hSHt3fsY&usqp=CAU",
+    "title": "The King Of Drugs",
+    "chanel": "NORA BARRETT",
+    "price": "240"
   },
   {
     "key": "3",
-    "img": "https://tour.com.bd/uploads/images/hotels/slider/thumbs/588989_2.jpg",
-    "video": "https://www.youtube.com/embed/tMWc1dzRvDY",
-    "title": "please subcribe the video ",
-    "views": "140k views",
-    "time": " 8 hours ago",
-    "chanel": "Code with sabbir"
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGgmLvrpFogaLn587_tcKDqMYSTTldT_gxrAag9R-PCpXEUNrfDXQho31Wv1MfTHGMRZw&usqp=CAU",
+    "title": "The Way Of the Nameless",
+    "price": "549",
+    "chanel": "GRAHAM DOUGLESS"
   },
   {
     "key": "4",
-    "img": "https://tour.com.bd/uploads/images/hotels/slider/thumbs/94178_4.jpg",
-    "video": "https://www.youtube.com/embed/SjWU5Ygz-1M",
-    "title": "please subcribe the video ",
-    "views": "140k views",
-    "time": " 8 hours ago",
-    "chanel": "Code with sabbir"
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtxUk6HLe0vTUz63uGulIaoAbom6QVdYS-ef6-5H1toi2xE2SXxxZPK5Za8BbhSBtWZow&usqp=CAU",
+    "title": "Saga",
+    "price": "180",
+    "chanel": "FIONA STAPLES"
   },
   {
     "key": "5",
-    "img": "https://tour.com.bd/uploads/images/hotels/slider/thumbs/731415_8.jpg",
-    "video": "https://www.youtube.com/embed/PNTCM7cbrsc",
-    "title": "please subcribe the video ",
-    "views": "140k views",
-    "time": " 8 hours ago",
-    "chanel": "Code with sabbir"
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrLjpTedwE55rCq3U5hMKMO3DD9Bl8pOThb-rpcWZMXHsPE8ZTlQklNJFO0EagHMc0ApA&usqp=CAU",
+    "title": "Hypocrite World",
+    "price": "390",
+    "chanel": "SOPHIA HILL"
   },
   {
     "key": "6",
-    "img": "https://tour.com.bd/uploads/images/hotels/slider/thumbs/100617_6.jpg",
-    "video": "https://youtu.be/dLMSuDXHh-c",
-    "title": "please subcribe the video ",
-    "views": "140k views",
-    "time": " 8 hours ago",
-    "chanel": "Code with sabbir"
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_0CFi-HE0eEF0iT-iPUE82_XUz5ZyF9c6boEgHZY7CtaKVy3d1s15_6jdleCqoLxBJyg&usqp=CAU",
+    "title": "All This Time",
+    "price": "740",
+    "chanel": "RACHAD LIPISOCORT"
+  },
+  {
+    "key": "7",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8aXKHDOqz6ArNV9iDHjM0zrgE9UoF8qjeGNyqXKeYhNc3EKU_GekreI3j7Mt5impK0Mo&usqp=CAU",
+    "title": "The Imperections Of Memory",
+    "price": "269",
+    "chanel": "ANDELINA"
+  },
+  {
+    "key": "8",
+    "img": "https://www.theyoungfolks.com/wp-content/uploads/2017/08/six-of-crows.jpg",
+    "title": "Six Of Crows",
+    "price": "400",
+    "chanel": "LEIGH  BARDUGO"
+  },
+  {
+    "key": "9",
+    "img": "https://s26162.pcdn.co/wp-content/uploads/2020/01/Sin-Eater-by-Megan-Campisi.jpg",
+    "title": "Sin Eater",
+    "price": "150",
+    "chanel": "MEGAN CAMPISI"
+  },
+  {
+    "key": "10",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsfxrcUtlaLqSTTpA7N9cWKIopvRNtXngM2A&usqp=CAU",
+    "title": "A Million  To One",
+    "price": "170",
+    "chanel": "TONY FAGGIOLI"
+  },
+  {
+    "key": "11",
+    "img": "https://media.illustrationx.com/images/artist/RohanEason/106234/watermark/1300/the-hollow-woods.jpg",
+    "title": "The Hellow Woods",
+    "price": "899",
+    "chanel": "ROHAN EASON"
+  },
+  {
+    "key": "12",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWzag8FCEcHmXmpToszmC0s3bTZhBmzs950UhLVRCzmySLU9wtpN6kcbWYV1HPXnW5Hrw&usqp=CAU",
+    "title": "Stephen King",
+    "price": "130",
+    "chanel": " NAVEL Outsider"
   }
 ]

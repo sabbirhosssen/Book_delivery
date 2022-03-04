@@ -11,9 +11,9 @@ const Books = () => {
    },[])
     return (
         <div>
-               <h1 className=' ps-5 pt-5'> All Books </h1>
+               <h1 className=' ps-5 pt-5 text-white'> All Books </h1>
 
-<Row xs={1} md={3} className="g-3 p-5 h-100   m-0">
+<Row xs={2} md={6} className="g-4 p-5 h-100   m-0">
     {
         books?.map(book=>
             <BooksData

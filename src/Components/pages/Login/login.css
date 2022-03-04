@@ -1,0 +1,23 @@
+.back_logo {
+  background: url("https://www.vitacuro.com/assets/img/login-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.colo {
+  color: rgb(209, 111, 20);
+}
+
+.back {
+  background: rgba(116, 165, 68, 0.333);
+}
+.sback_logo {
+  background: url("https://cartjolt.com/svg/signup.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}

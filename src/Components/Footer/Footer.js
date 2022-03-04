@@ -3,13 +3,6 @@ import { Button, FormControl, InputGroup } from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <div>
-             <div>
-
-<br /><br /><br />
-
-
-
 <div className="m-0 mb-0 bg-white  border   ">
     <div className="container">
         <div className="row pt-3 py-2">
@@ -57,10 +50,7 @@ const Footer = () => {
 
 </div>
 
-</div>
 
-            
-        </div>
     );
 };
 

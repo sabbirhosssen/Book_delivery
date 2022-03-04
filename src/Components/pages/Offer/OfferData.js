@@ -1,21 +1,15 @@
 import React from 'react';
 import { Card, Col, Image } from 'react-bootstrap';
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
-import { Link, useNavigate } from 'react-router-dom';
-const BooksData = ({book}) => {
-    const{img,title,chanel,views,time,key, price}=book
-    const navigate = useNavigate(); 
-    const handleClickBooks = (e) => {
-        const stock_uri = `/books/${key}`
-        navigate(stock_uri)
-    }
 
+const OfferData = ({key,img,title,chanel,price}) => {
     
     return (
         <div>
-             <Col>
-               <Card className=" bg-dark bg-gradient text-white">
-                   <Image width="100%" height="440px" src={img} ></Image>
+            <Col>
+               < Card className=" bg-dark bg-gradient text-white">
+                     <Image width="100%" height="440px" className='rounded'  src={img} ></Image> 
+                 
                    <Card.Body className=' '>
                     <Card.Text className=' text_card'>
                          <Card.Title>{title}</Card.Title>
@@ -34,7 +28,7 @@ const BooksData = ({book}) => {
                     </Card.Text>
     
                   </Card.Body>
-                  <Link to={`/books/${key}`} > <button onClick={()=>handleClickBooks(key)} className='border-0 text-bold btn btn-outline-warning'>Add To Cart</button> </Link>
+                  {/* <Link to={`/books/${key}`} > <button onClick={()=>handleClickBooks(key)} className='border-0 text-bold btn btn-outline-warning'>Add To Cart</button> </Link> */}
                  
                 </Card>
                 </Col>
@@ -42,4 +36,4 @@ const BooksData = ({book}) => {
     );
 };
 
-export default BooksData;
+export default OfferData;
