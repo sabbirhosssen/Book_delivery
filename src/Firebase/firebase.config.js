@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDcz003rZyT7ZyOrAd3s0PR7IFUb4Wde6A",
-    authDomain: "book-delivery-project.firebaseapp.com",
-    projectId: "book-delivery-project",
-    storageBucket: "book-delivery-project.appspot.com",
-    messagingSenderId: "105070296808",
-    appId: "1:105070296808:web:be1edfecc066892a99135d",
-    measurementId: "G-EJGYR65CTY"
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket:process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID,
+    measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
   };
   export default firebaseConfig;
