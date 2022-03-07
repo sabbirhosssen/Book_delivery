@@ -6,7 +6,7 @@ import './login.css';
 const SignUp = () => {
     return (
         <div className="sback_logo p-5 bg white">
-            <div className=" sva w-25 border border-2 p-5 m-2 rounded mx-auto">
+            <div className=" sva w-50 border border-2 p-5 m-2 rounded mx-auto">
         <Form>
             <Form.Label className="fs-3 text-info">Sign up</Form.Label>
 

@@ -24,9 +24,8 @@ const OfferData = ({key,img,title,chanel,price}) => {
                       <AiOutlineStar className='text-white'/>
                     </div>
                     <Card.Text>
-                      Price :{price}tk
+                      Delivery Price : {price}tk
                     </Card.Text>
-                  <p className='text-white'>hi</p>
     
                   </Card.Body>
                   {/* <Link to={`/books/${key}`} > <button onClick={()=>handleClickBooks(key)} className='border-0 text-bold btn btn-outline-warning'>Add To Cart</button> </Link> */}

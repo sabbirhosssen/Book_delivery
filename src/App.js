@@ -6,6 +6,7 @@ import BookOrder from './Components/pages/Books/BookOrder';
 import Books from './Components/pages/Books/Books';
 import Contact from './Components/pages/Contact/Contact';
 import Home from './Components/pages/Home/Home';
+import Admin from './Components/pages/Login/Admin';
 import Login from './Components/pages/Login/Login';
 import SignUp from './Components/pages/Login/SignUp';
 import Offer from './Components/pages/Offer/Offer';
@@ -26,10 +27,16 @@ function App() {
              <BookOrder/>
              </PrivateRoute> 
            } />
+            <Route path="/admin" element={
+             
+                <Admin/>
+              
+              } />
         <Route path="/offers" element={<Offer/>} />
         <Route path="/allorder" element={<Contact/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/signup" element={<SignUp/>} />
+       
       </Routes> 
    
       <Footer/>

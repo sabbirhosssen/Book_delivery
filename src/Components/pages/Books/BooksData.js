@@ -15,7 +15,7 @@ const BooksData = ({book}) => {
     return (
         <div>
              <Col>
-               <Card className=" bg-dark bg-gradient text-white">
+               <Card className=" bg-dark bg-gradient text-white " style={{height:"660px"}}>
                    <Image width="100%" height="390px" src={img} ></Image>
                    <Card.Body className=' '>
                     <Card.Text className=' text_card'>
@@ -23,7 +23,6 @@ const BooksData = ({book}) => {
                       <Card.Text>{chanel}</Card.Text>
                     </Card.Text>
                     <div className='d-inlineblock '>
-
                       <AiFillStar className='text-success'  />
                       <AiFillStar className='text-success' />
                       <AiFillStar className='text-success' />
@@ -31,11 +30,11 @@ const BooksData = ({book}) => {
                       <AiOutlineStar className='text-white'/>
                     </div>
                     <Card.Text>
-                      Price :{price}tk
+                      Delivery Price :{price}tk
                     </Card.Text>
     
                   </Card.Body>
-                  <Link to={`/books/${key}`} > <button onClick={()=>handleClickBooks(key)} className='border-0 text-white btn btn-outline-warning bg_card  '>Add To Cart</button> </Link>
+                  <Link to={`/books/${key}`} > <button onClick={()=>handleClickBooks(key)} className='border-0 text-white btn btn-outline-warning bg_card mb-1 '>Add To Cart</button> </Link>
                  
                 </Card>
                 </Col>
