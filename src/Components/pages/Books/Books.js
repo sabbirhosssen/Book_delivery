@@ -5,7 +5,7 @@ import BooksData from './BooksData';
 const Books = () => {
    const [books,setBooks]=useState([])
    useEffect(()=>{
-       fetch('/Books.json')
+       fetch('http://localhost:5000/allBooks')
        .then(res=>res.json())
        .then(data=>setBooks(data))
    },[])
@@ -17,12 +17,12 @@ const Books = () => {
     {
         books?.map(book=>
             <BooksData
-            key={book?.key}
+            key={book?._id}
             book={book}
             />)
     }
 </Row>
-            
+          
         </div>
     );
 };

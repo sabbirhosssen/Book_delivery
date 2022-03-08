@@ -2,12 +2,13 @@ import React from 'react';
 import { Card, Col, Image } from 'react-bootstrap';
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import { Link, useNavigate } from 'react-router-dom';
+import './Books.css';
 const BooksData = ({book}) => {
-    const{img,title,chanel,key, price}=book
+    const{img,name,writer,_id, price}=book
     const navigate = useNavigate(); 
-    const handleClickBooks = (key) => {
+    const handleClickBooks = (_id) => {
       
-        const stock_uri = `/books/${key}`
+        const stock_uri = `/books/${_id}`
         navigate(stock_uri)
     }
 
@@ -19,8 +20,8 @@ const BooksData = ({book}) => {
                    <Image width="100%" height="390px" src={img} ></Image>
                    <Card.Body className=' '>
                     <Card.Text className=' text_card'>
-                         <Card.Title>{title}</Card.Title>
-                      <Card.Text>{chanel}</Card.Text>
+                         <Card.Title>{name}</Card.Title>
+                      <Card.Text>{writer}</Card.Text>
                     </Card.Text>
                     <div className='d-inlineblock '>
                       <AiFillStar className='text-success'  />
@@ -34,7 +35,7 @@ const BooksData = ({book}) => {
                     </Card.Text>
     
                   </Card.Body>
-                  <Link to={`/books/${key}`} > <button onClick={()=>handleClickBooks(key)} className='border-0 text-white btn btn-outline-warning bg_card mb-1 '>Add To Cart</button> </Link>
+                  <Link to={`/books/${_id}`} > <button onClick={()=>handleClickBooks(_id)} className='border-0 text-white btn btn-outline-warning bg_card mb-1 '>Add To Cart</button> </Link>
                  
                 </Card>
                 </Col>

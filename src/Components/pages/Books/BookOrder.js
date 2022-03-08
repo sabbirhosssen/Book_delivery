@@ -8,30 +8,14 @@ const BookOrder = () => {
     // console.log(booker);
 
     useEffect(()=>{
-        fetch('/Books.json')
-        .then(res=>res.json())
-        .then(data => 
-            {
-           const findData =data.find(f=>f.key===params?.useId)
-           setBooker(findData)
-        },)
+      fetch(`http://localhost:5000/allBooks/${params.useId}`)
+      .then(res=>res.json())
+      .then(data=>setBooker(data))
     },[])
 
 
 
-      // all order client user information method
-
-      // const { register, handleSubmit, reset ,user} = useAuth();
-      // const onSubmit = data => {
-      //     console.log(data);
-      //     Axios.post(`https://secure-fjord-39220.herokuapp.com/allOrder `, data)
-      //         .then(res => {
-      //             if (res.data.insertedId) {
-      //                 alert('added to successfully ')
-      //                 reset();
-      //             }
-      //         })
-      // }
+      
      return (
         <div>
            <div className="d-flex justify-content-center  align-items-center m-5">
@@ -40,20 +24,20 @@ const BookOrder = () => {
                  
                </div>
              <div className='w-50'>
-             <h2 className='text-white'>products number<span> {params.useId}</span>
+             <h2 className='text-white fs-5'>products number : <span> {params.useId}</span> 
             </h2>
             <Col  className=' ps-5  ' height="420px">
                < Card className=" bg-dark bg-gradient text-white">
                   
                    <Card.Body className=' '>
-                    <Card.Text className=' text_card'>
-                         <Card.Title>{booker.title}</Card.Title>
-                      <Card.Text>{booker.chanel}</Card.Text>
-                      <Card.Text>{booker.description}</Card.Text>
+                    <Card.Text className=' text_card text-start'>
+                         <Card.Title>Book Name : {booker.name}</Card.Title>
+                      <Card.Text>Book Writer : {booker.writer }</Card.Text>
+                      <Card.Text>Dexcription : {booker.description}</Card.Text>
                     </Card.Text>
                     
                     <Card.Text>
-                      Price : {booker.price}tk
+                      Delivery Price : {booker.price}tk
                     </Card.Text>
     
                   </Card.Body>

@@ -28,9 +28,9 @@ function App() {
              </PrivateRoute> 
            } />
             <Route path="/admin" element={
-             
-                <Admin/>
-              
+             <PrivateRoute>
+                 <Admin/>
+             </PrivateRoute>
               } />
         <Route path="/offers" element={<Offer/>} />
         <Route path="/allorder" element={<Contact/>} />
